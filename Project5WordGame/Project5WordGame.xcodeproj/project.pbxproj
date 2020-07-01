@@ -13,6 +13,7 @@
 		B3FC6A2324AD0CFE0074E7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC6A2124AD0CFE0074E7FE /* Main.storyboard */; };
 		B3FC6A2524AD0D000074E7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FC6A2424AD0D000074E7FE /* Assets.xcassets */; };
 		B3FC6A2824AD0D000074E7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC6A2624AD0D000074E7FE /* LaunchScreen.storyboard */; };
+		B3FC6A3024AD0DDB0074E7FE /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3FC6A2F24AD0DDB0074E7FE /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3FC6A2424AD0D000074E7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FC6A2724AD0D000074E7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3FC6A2924AD0D000074E7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FC6A2F24AD0DDB0074E7FE /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B3FC6A2424AD0D000074E7FE /* Assets.xcassets */,
 				B3FC6A2624AD0D000074E7FE /* LaunchScreen.storyboard */,
 				B3FC6A2924AD0D000074E7FE /* Info.plist */,
+				B3FC6A2F24AD0DDB0074E7FE /* start.txt */,
 			);
 			path = Project5WordGame;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3FC6A2824AD0D000074E7FE /* LaunchScreen.storyboard in Resources */,
+				B3FC6A3024AD0DDB0074E7FE /* start.txt in Resources */,
 				B3FC6A2524AD0D000074E7FE /* Assets.xcassets in Resources */,
 				B3FC6A2324AD0CFE0074E7FE /* Main.storyboard in Resources */,
 			);
