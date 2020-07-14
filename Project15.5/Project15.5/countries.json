@@ -1,0 +1,19 @@
+{
+  "countries": [
+    {
+      "country": "France",
+      "currency": "€",
+      "language": "french"
+    },
+    {
+      "country": "UK",
+      "currency": "£",
+      "language": "english"
+    },
+    {
+      "country": "sweden",
+      "currency": "€",
+      "language": "swedish"
+    }
+    ]
+}
