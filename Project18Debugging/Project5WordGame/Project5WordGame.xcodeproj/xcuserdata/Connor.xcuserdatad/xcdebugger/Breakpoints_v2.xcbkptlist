@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0EA5F16E-67E8-4DB2-A6A9-F2AEAAEF46F7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECF99064-47AC-43B9-8BAE-3FE757674FCE"
+            shouldBeEnabled = "Yes"
+            condition = "answer.count &gt;= 6"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project5WordGame/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "submit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
