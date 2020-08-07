@@ -13,6 +13,8 @@
 		B3404CDC24DD5CE000FA32C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3404CDA24DD5CE000FA32C4 /* Main.storyboard */; };
 		B3404CDE24DD5CE400FA32C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3404CDD24DD5CE400FA32C4 /* Assets.xcassets */; };
 		B3404CE124DD5CE400FA32C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3404CDF24DD5CE400FA32C4 /* LaunchScreen.storyboard */; };
+		B3FCB66E24DD60F100D265FC /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3FCB66D24DD60F100D265FC /* level1.txt */; };
+		B3FCB67024DD66DA00D265FC /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCB66F24DD66DA00D265FC /* Pair.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B3404CDD24DD5CE400FA32C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3404CE024DD5CE400FA32C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3404CE224DD5CE500FA32C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FCB66D24DD60F100D265FC /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		B3FCB66F24DD66DA00D265FC /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				B3404CD424DD5CE000FA32C4 /* AppDelegate.swift */,
 				B3404CD624DD5CE000FA32C4 /* SceneDelegate.swift */,
 				B3404CD824DD5CE000FA32C4 /* ViewController.swift */,
+				B3FCB66F24DD66DA00D265FC /* Pair.swift */,
 				B3404CDA24DD5CE000FA32C4 /* Main.storyboard */,
 				B3404CDD24DD5CE400FA32C4 /* Assets.xcassets */,
 				B3404CDF24DD5CE400FA32C4 /* LaunchScreen.storyboard */,
 				B3404CE224DD5CE500FA32C4 /* Info.plist */,
+				B3FCB66D24DD60F100D265FC /* level1.txt */,
 			);
 			path = Pairs;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3404CE124DD5CE400FA32C4 /* LaunchScreen.storyboard in Resources */,
+				B3FCB66E24DD60F100D265FC /* level1.txt in Resources */,
 				B3404CDE24DD5CE400FA32C4 /* Assets.xcassets in Resources */,
 				B3404CDC24DD5CE000FA32C4 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3404CD924DD5CE000FA32C4 /* ViewController.swift in Sources */,
+				B3FCB67024DD66DA00D265FC /* Pair.swift in Sources */,
 				B3404CD524DD5CE000FA32C4 /* AppDelegate.swift in Sources */,
 				B3404CD724DD5CE000FA32C4 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.Pairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee.Pairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -1,0 +1,8 @@
+United Kingdom: London
+France: Paris
+United States: Washington, D.C.
+Vietnam: Hanoi
+Taiwan: Taipei
+Sweden: Stockholm
+Spain: Madrid
+South Korea: Seoul
